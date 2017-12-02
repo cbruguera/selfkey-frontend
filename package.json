@@ -3,14 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.2.0",
+    "ethjs": "^0.3.0",
+    "fs": "0.0.1-security",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "react-web3": "^0.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react": "^16.2.0",
+    "web3": "^1.0.0-beta.26",
+    "webpack": "^3.9.1"
   }
 }
